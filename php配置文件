@@ -1,0 +1,7 @@
+php配置文件
+
+php如果是在linux编译安装，并且未指定php.ini配置时，编译安装默认是没有php.ini文件的
+  解决办法：从php解压后的源文件里，把php.ini-development复制到 php源安装目录下的的etc文件里，并命名为php.ini
+  如果在不确定指没指定配置文件目录的情况下，可以用 php -i | grep init 查看 Loaded Configuration File 配置项指定的目录就是配置文件应该在的目录
+  
+  
